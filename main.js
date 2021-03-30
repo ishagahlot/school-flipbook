@@ -2,10 +2,10 @@ const html = document.documentElement;
 const canvas = document.querySelector('.school');
 const context = canvas.getContext("2d");
 
-const frameCount = 35;
+const frameCount = 37;
 
 const currentFrame = index => (
-  `./img/${index.toString().padStart(2, '0')}.png`
+  `./imgs/${index.toString().padStart(2, '0')}.png`
 )
 
 const preloadImages = () => {
